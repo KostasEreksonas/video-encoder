@@ -5,6 +5,9 @@ Table of Contents
 =================
 * [Installation](#Installation)
 * [Usage](#Usage)
+    * [Encoders](#Encoders)
+    * [Presets](#Presets)
+    * [CRF](#CRF)
 
 # Installation
 
@@ -19,3 +22,25 @@ Enable execution of `video-encoder` script by setting the executable bit on:
 # Usage
 
 Start the script with `./video-encoder` and follow the prompt
+
+## Encoders
+
+As of now, options for `libx264` and `libx265` are available
+
+## Presets
+
+Available presets:
+- `ultrafast`
+- `superfast`
+- `veryfast`
+- `faster`
+- `fast`
+- `medium`
+- `slow`
+- `slower`
+- `veryslow`
+- `placebo`
+
+## CRF
+
+CRF values are 0 - 53 for `libx264` and 0 - 51 for `libx265`
