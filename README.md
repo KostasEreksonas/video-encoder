@@ -1,5 +1,5 @@
 # video-encoder
-A wrapper Bash script to encode videos with ffmpeg
+Attempt to automate video encoding using ffmpeg 
 
 Table of Contents
 =================
